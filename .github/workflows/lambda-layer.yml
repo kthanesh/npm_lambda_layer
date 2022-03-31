@@ -1,5 +1,5 @@
 env:
-  NPM_PACKAGES: express mysql
+  NPM_PACKAGES: express buffer cors ejs jsdom serverless-http svg2img
 on:
   push:
     branches: [ main ]
@@ -19,6 +19,6 @@ jobs:
           --compatible-runtimes nodejs
           --zip-file fileb://release.zip
       env:
-        AWS_DEFAULT_REGION: ap-south-1
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: us-east-1
+        AWS_ACCESS_KEY_ID: AKIA5XAXPVZER5K4RNV6
+        AWS_SECRET_ACCESS_KEY: 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
