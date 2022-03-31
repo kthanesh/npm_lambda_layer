@@ -11,6 +11,7 @@ jobs:
     - uses: actions/setup-node@v2.1.5
     - run: mkdir nodejs && cd nodejs && npm install $NPM_PACKAGES && cd ..
     - uses: TheDoctor0/zip-release@0.4.1
+    - uses: ItsKarma/aws-cli@v1.70.0
       with:
         args: >
           lambda publish-layer-version
