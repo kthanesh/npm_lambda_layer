@@ -20,5 +20,5 @@ jobs:
           --zip-file fileb://release.zip
       env:
         AWS_DEFAULT_REGION: us-east-1
-        AWS_ACCESS_KEY_ID: ${{ AKIA5XAXPVZER5K4RNV6 }}
-        AWS_SECRET_ACCESS_KEY: ${{ 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 }}
+        AWS_ACCESS_KEY_ID: AKIA5XAXPVZER5K4RNV6
+        AWS_SECRET_ACCESS_KEY: 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
